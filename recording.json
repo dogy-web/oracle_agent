@@ -1,0 +1,91 @@
+{
+    "title": "Recording 11/7/2025 at 6:46:26 PM",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1212,
+            "height": 1271,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://support.oracle.com/epmos/faces/Dashboard?_adf.ctrl-state=15k36ul57s_14&_afrLoop=257546781668639",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://support.oracle.com/epmos/faces/Dashboard?_adf.ctrl-state=15k36ul57s_14&_afrLoop=257546781668639",
+                    "title": "Dashboard"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Global Search[role=\"textbox\"]"
+                ],
+                [
+                    "#pt1\\:svMenu\\:gsb\\:subFgsb\\:mGlobalSearch\\:pt_itG\\:\\:content"
+                ],
+                [
+                    "xpath///*[@id=\"pt1:svMenu:gsb:subFgsb:mGlobalSearch:pt_itG::content\"]"
+                ],
+                [
+                    "pierce/#pt1\\:svMenu\\:gsb\\:subFgsb\\:mGlobalSearch\\:pt_itG\\:\\:content"
+                ]
+            ],
+            "offsetY": 12,
+            "offsetX": 50
+        },
+        {
+            "type": "change",
+            "value": "weblgic",
+            "selectors": [
+                [
+                    "aria/Global Search[role=\"textbox\"]"
+                ],
+                [
+                    "#pt1\\:svMenu\\:gsb\\:subFgsb\\:mGlobalSearch\\:pt_itG\\:\\:content"
+                ],
+                [
+                    "xpath///*[@id=\"pt1:svMenu:gsb:subFgsb:mGlobalSearch:pt_itG::content\"]"
+                ],
+                [
+                    "pierce/#pt1\\:svMenu\\:gsb\\:subFgsb\\:mGlobalSearch\\:pt_itG\\:\\:content"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Global Search[role=\"image\"]"
+                ],
+                [
+                    "#pt1\\:svMenu\\:gsb\\:subFgsb\\:menu_pt_cil2\\:\\:icon"
+                ],
+                [
+                    "xpath///*[@id=\"pt1:svMenu:gsb:subFgsb:menu_pt_cil2::icon\"]"
+                ],
+                [
+                    "pierce/#pt1\\:svMenu\\:gsb\\:subFgsb\\:menu_pt_cil2\\:\\:icon"
+                ]
+            ],
+            "offsetY": 12,
+            "offsetX": 12,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://support.oracle.com/epmos/faces/KMConsolidatedSearch?_adf.ctrl-state=15k36ul57s_14&_afrLoop=257613524580192",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
